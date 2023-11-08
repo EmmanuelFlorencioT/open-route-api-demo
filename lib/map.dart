@@ -77,9 +77,6 @@ class _MyMapState extends State<MyMap> {
 
   @override
   Widget build(BuildContext context) {
-    //Check for the device size. To scale the height and width of the image.
-    final size = MediaQuery.of(context).size;
-
     return Scaffold(
       appBar: AppBar(
         title: Text(
